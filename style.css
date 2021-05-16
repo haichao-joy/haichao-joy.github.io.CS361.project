@@ -1,0 +1,59 @@
+body {
+    display: block;
+    background-image: url("image.jpg");
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.app-title a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    position: relative;
+    font-weight: 100;
+    font-size: 60px;
+    margin: 0 0 0 20px;
+    left: 610px;
+}
+
+.original-text{
+    display: block;
+    border: 8px solid black;
+    border-radius: 3px;
+    height: 350px;
+    width: 675px;
+    margin: 20px;
+    position: relative;
+    left: 475px;
+    padding: 10px;
+    background-color: lightsalmon;
+    color: black;
+    font-size: 30px;
+}
+
+
+.summary-btn{
+    display: inline-block;
+    position: relative;
+    left: 1050px;
+    top: -60px;
+}
+
+
+#summary-text{
+    display: block;
+    border: 8px solid black;
+    border-radius: 3px;
+    height: 350px;
+    width: 675px;
+    margin: 20px;
+    position: relative;
+    left: 475px;
+    padding: 10px;
+    background-color: pink;
+    font-size: 30px;
+}
+
